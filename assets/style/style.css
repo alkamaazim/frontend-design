@@ -149,7 +149,7 @@ h1 {
 }
 
 /* service */
-.service .serviceItem .thumbline{
+.service .serviceItem{
     position: relative;
     z-index: 1;
 }
@@ -160,13 +160,18 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 80%;
+    width: 80%;
     background-color: #fff;
-    padding: 30px 30px;
+    /* padding: 30px 30px; */
     position: absolute;
     left: 50%;
     bottom: 0;
     z-index: 1;
     transition: .3s;
-    transform: translateX(-50%); */
+    transform: translateX(-50%);
+}
+
+.service .serviceItem .contents .title{
+  color: #141414;
+  font-size: 20px;
 }
