@@ -214,8 +214,10 @@ h6 {
   font-weight: 500;
   margin-bottom: 10px;
 }
-.footer-contact-item .content .para {
+.footer-contact-item .content .para,
+.footer-contact-item .content .para a {
   color: #d3d3d4;
+  text-decoration: none;
 }
 
 /* footer */
@@ -225,13 +227,14 @@ h6 {
   background-position: center center;
   width: 100%;
   height: 100%;
+  padding-top: 3rem;
 }
 .footer-area {
   background-color: #222429;
   border-top: 1px solid rgba(221, 221, 221, 0.123);
 }
 .footer-item a img {
-  width: 100%;
+  width: 70%;
   padding-bottom: 20px;
 }
 .footer-item .content {
@@ -279,7 +282,7 @@ h6 {
   bottom: -2px;
   background-color: #df0e0e9f;
 }
-.footer-menu {
+.footer-menu{
   list-style: none;
   padding-left: 0px;
 }
@@ -301,17 +304,25 @@ h6 {
   font-weight: 400;
   text-decoration: none;
 }
-.footer-item .btn--base {
-  background-color: #df0e0e;
-  color: #fff;
-  padding: 13px 30px;
-  font-family: var(--head-font);
-  letter-spacing: 0.5px;
-  font-weight: 400;
-  font-size: 20px;
-  position: relative;
-  isolation: isolate;
-  transition: 0.4s;
-  border-radius: 1px;
-  text-align: center;
+.footer-item .btn--base{
+  background-color: #DF0E0E;
+    color: #fff;
+    padding: 13px 30px;
+    font-family: var(--head-font);
+    letter-spacing: .5px;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    isolation: isolate;
+    transition: .4s;
+    border-radius: 1px;
+    text-align: center;
+}
+
+.bottom-footer{
+  margin-top: 3rem;
+  background-color: #34363a;
+}
+.bottom-footer-text{
+  margin-bottom: 0px;
 }
